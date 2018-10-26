@@ -6,6 +6,6 @@ a=list(map(int,input().split()))
 for i in range(n-1):
     if a[i]>=a[i+1]:   
            count+=math.ceil(((a[i]-a[i+1])+1)/m)
-           a[i+1]+=m*math.ceil(((a[i]-a[i+1])+1)/m)        
+           a[i+1]+=m*math.ceil(((a[i]-a[i+1])+1)/m)        #geudfguewfughe
 print(count)            
     
